@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.header,
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.header a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.hero p {
+    color: lightgray;
+}
+
+.header-logo {
+    color: white;
+}
+
+.hero-image {
+    background-color: red;
+}
