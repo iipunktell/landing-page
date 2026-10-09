@@ -64,6 +64,13 @@ button:active {
     margin: 0px;
 }
 
+.hero-main h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
 .information h1 {
     font-size: 36px;
     color: #1F2937;
@@ -82,9 +89,11 @@ button:active {
 .hero p,
 .header a {
     color: #E5E7EB;
+    font-size: 18px;
 }
 
 .single-info-image p {
+    font-size: 18px;
     color: rgb(79, 79, 79)
 }
 
@@ -114,13 +123,14 @@ button:active {
 .single-info-image {
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 170px;
     text-align: center;
+    align-items: center;
 }
 
 .fake-image {
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: 170px;
     border-style: solid;
     border-width: 4px;
     border-color: rgb(0, 102, 255);
